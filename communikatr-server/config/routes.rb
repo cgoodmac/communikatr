@@ -1,4 +1,9 @@
 CommunikatrServer::Application.routes.draw do
+  
+  post '/twitter' => 'home#twitter'
+  post '/email' => 'home#email'  
+  post '/text' => 'home#text'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
