@@ -1,15 +1,8 @@
 $(function(){
-  // $('#send_message').click(sendMessage);
   $('#send_message').click(sendMessage);
 });
 
-function checkButton () {
- var id = $('input[name=delivery]:checked').val()
- alert(id);
-}
-
 function sendMessage() {
-  // body...
   var id = $('input[name=delivery]:checked').val()
 
   var message = $('#message').val();
